@@ -1,2 +1,2 @@
-FROM ubuntu
-RUN echo "hello world" > /tmp/index.html
+FROM nginx:alpine
+RUN echo "hello world" > /var/www/index.html
